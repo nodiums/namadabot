@@ -1,6 +1,8 @@
 # namadabot
 This tool helps to track liveness of namada validator
 
+## Screenshot
+(https://github.com/nodiums/namadabot/blob/main/workflow.png)
 ## Configuration
 
 Adjust `config.toml` with your data. It is recommended to run this along with validator rpc.
