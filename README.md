@@ -3,6 +3,7 @@ This tool helps to track liveness of namada validator
 
 ## Screenshot
 ![status.js](https://raw.githubusercontent.com/nodiums/namadabot/main/workflow.png)
+![tg](https://raw.githubusercontent.com/nodiums/namadabot/main/tg.png)
 ## Configuration
 
 Adjust `config.toml` with your data. It is recommended to run this along with validator rpc.
