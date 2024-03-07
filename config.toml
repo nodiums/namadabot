@@ -1,0 +1,6 @@
+operator = "tnam1qxcudgqkf03hfuv43zjfe76julypzdwxyggjjhk2" 
+rpc = "http://localhost:26657"
+bot_token = "your token id"
+miss_notification = "1"
+chain_id = "shielded-expedition.88f17d1d14"
+chat_id='your chat id'
