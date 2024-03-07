@@ -20,14 +20,24 @@ You can install the necessary dependencies using npm:
 ```bash
 npm install toml request-promise
 ```
-## Retrieve Tendermint Key
+## Workflow
+
+### Namadac Binary Existence Check
+
+The script first checks if the Namadac binary exists by executing the command `namadac --version`.
+
+### RPC Network Check
+
+The script checks the RPC network by sending a request to the RPC endpoint specified in the `config.toml` file. It verifies if the network is caught up and validates its `chain_id`.
+
+### Retrieve Tendermint Key
 
 The script retrieves the Tendermint key associated with the provided operator address:
 
 - If the command is successful and returns the Tendermint key, it proceeds with the key.
 
 
-## Continuous Block Checking
+### Continuous Block Checking
 
 After ensuring the Namadac binary existence and checking the RPC network, the script proceeds to continuous block checking:
 
