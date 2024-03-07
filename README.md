@@ -19,7 +19,7 @@ You can install the necessary dependencies using npm:
 
 ```bash
 npm install toml request-promise
-
+```
 ## Retrieve Tendermint Key
 
 The script retrieves the Tendermint key associated with the provided operator address:
